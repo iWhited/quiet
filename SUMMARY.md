@@ -1,4 +1,10 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [✌️ Bienvenue sur Quiet.mx](README.md)
+* [🚀 L'équipe](lequipe.md)
+
+## Partenaires
+
+* [Hardpulz](https://hardpulz.com)
+* [Conquistadors](https://conquistadors.io)
 
