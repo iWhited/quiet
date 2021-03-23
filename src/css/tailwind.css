@@ -1,0 +1,114 @@
+@font-face {
+	font-family: "Mont ExtraLight";
+	src: url('../fonts/Mont-ExtraLight.otf');
+}
+
+@font-face {
+	font-family: "Mont Heavy";
+	src: url('../fonts/Mont-Heavy.otf');
+}
+
+@font-face {
+	font-family: "Poppins Black";
+	src: url('../fonts/Poppins-Black.ttf');
+}
+
+@font-face {
+	font-family: "Poppins Black Italic";
+	src: url('../fonts/Poppins-BlackItalic.ttf');
+}
+
+@font-face {
+	font-family: "Poppins Bold";
+	src: url('../fonts/Poppins-Bold.ttf');
+}
+
+@font-face {
+	font-family: "Poppin Bold Italic";
+	src: url('../fonts/Poppins-BoldItalic.ttf');
+}
+
+@font-face {
+	font-family: "Poppins ExtraBold";
+	src: url('../fonts/Poppins-ExtraBold.ttf');
+}
+
+@font-face {
+	font-family: "Poppins Extra Bold Italic";
+	src: url('../fonts/Poppins-ExtraBold.ttf');
+}
+
+@font-face {
+	font-family: "Poppins Extra Light";
+	src: url('../fonts/Poppins-ExtraLight.ttf');
+}
+
+@font-face {
+	font-family: "Poppins Extra Light Italic";
+	src: url('../fonts/Poppins-ExtraLightItalic.ttf');
+}
+
+@font-face {
+	font-family: "Poppins Italic";
+	src: url('../fonts/Poppins-Italic.ttf');
+}
+
+@font-face {
+	font-family: "Poppins Light";
+	src: url('../fonts/Poppins-Light.ttf');
+}
+
+@font-face {
+	font-family: "Poppins Light Italic";
+	src: url('../fonts/Poppins-LightItalic.ttf');
+}
+
+@font-face {
+	font-family: "Poppins Medium";
+	src: url('../fonts/Poppins-Medium.ttf');
+}
+
+@font-face {
+	font-family: "Poppins Medium Italic";
+	src: url('../fonts/Poppins-MediumItalic.ttf');
+}
+
+@font-face {
+	font-family: "Poppins Regular";
+	src: url('../fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+	font-family: "Poppins SemiBold";
+	src: url('../fonts/Poppins-SemiBold.ttf');
+}
+
+@font-face {
+	font-family: "Poppins Semi Bold Italic";
+	src: url('../fonts/Poppins-SemiBoldItalic.ttf');
+}
+
+@font-face {
+	font-family: "Poppins Thin";
+	src: url('../fonts/Poppins-Thin.ttf');
+}
+
+@font-face {
+	font-family: "Poppins Thin Italic";
+	src: url('../fonts/Poppins Thin Italic.ttf');
+}
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+
+/* a {
+	@apply text-bnpp-green;
+} */
+
+body {
+	background: #999 url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9ImNpcmNsZSIgY3k9ImZhcnRoZXN0LXNpZGUiIHI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMzMzMzMzMiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMxMTExMTEiLz48L3JhZGlhbEdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+	background: #999 -moz-radial-gradient(circle farthest-side, #333333, #111111);
+	background: #999 -webkit-radial-gradient(circle farthest-side, #333333, #111111);
+	background: #999 radial-gradient(circle farthest-side, #333333, #111111);
+  }
+@import "tailwindcss/utilities";

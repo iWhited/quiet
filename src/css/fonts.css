@@ -1,0 +1,69 @@
+@font-face {
+	font-family: "BNPP Expanded Sans Bold";
+	src: url('../fonts/BNPP Expanded Sans Bold.otf');
+}
+
+@font-face {
+	font-family: "BNPP Expanded Sans Light";
+	src: url('../fonts/BNPP Expanded Sans Light.otf');
+}
+
+@font-face {
+	font-family: "BNPP Expanded Sans";
+	src: url('../fonts/BNPP Expanded Sans.otf');
+}
+
+@font-face {
+	font-family: "BNPP Sans Bold Italic";
+	src: url('../fonts/BNPP Sans Bold Italic.otf');
+}
+
+@font-face {
+	font-family: "BNPP Sans Bold";
+	src: url('../fonts/BNPP Sans Bold.otf');
+}
+
+@font-face {
+	font-family: "BNPP Sans Cond Bold";
+	src: url('../fonts/BNPP Sans Cond Bold v2.otf');
+}
+
+@font-face {
+	font-family: "BNPP Sans Cond Extra Bold";
+	src: url('../fonts/BNPP Sans Cond Extra Bold v2.otf');
+}
+
+@font-face {
+	font-family: "BNPP Sans Cond Light";
+	src: url('../fonts/BNPP Sans Cond Light v2.1.otf');
+}
+
+@font-face {
+	font-family: "BNPP Sans Cond";
+	src: url('../fonts/BNPP Sans Cond v2.otf');
+}
+
+@font-face {
+	font-family: "BNPP Sans ExtraBold Italic";
+	src: url('../fonts/BNPP Sans ExtraBold Italic.otf');
+}
+
+@font-face {
+	font-family: "BNPP Sans ExtraBold";
+	src: url('../fonts/BNPP Sans ExtraBold.otf');
+}
+
+@font-face {
+	font-family: "BNPP Sans Italic";
+	src: url('../fonts/BNPP Sans Italic.otf');
+}
+
+@font-face {
+	font-family: "BNPP Sans Light";
+	src: url('../fonts/BNPP Sans Light.otf');
+}
+
+@font-face {
+	font-family: "BNPP Sans";
+	src: url('../fonts/BNPP Sans.otf');
+}
