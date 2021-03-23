@@ -34,7 +34,10 @@ module.exports = {
 					green: '#00915A',
 					light_green: '#5EC66B',
 				},
-			},	  
+			},
+			zIndex: {
+				'-1': '-1',
+			},
 		},
 	},
 	variants: {
