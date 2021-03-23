@@ -4,49 +4,48 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-		integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
-		crossorigin="anonymous" />
 	<link rel="stylesheet" href="css/tailwind.css" />
-
-	<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
 
 	<title>Quiet</title>
 </head>
 
-<body class="py-6 px-12 h-screen flex flex-col justify-between items-center text-white bg-black font-poppins_medium">
-		<header class="text-lg font-mont_heavy text-center">
+<body class="py-6 px-12 h-screen relative flex flex-col justify-between items-center text-white bg-black font-mont_heavy overflow-hidden">
+		<header class="text-lg  text-center">
 			Quiet
 		</header>
 
 		<main class="flex flex-col items-center">
-			<h2 class="text-5xl font-mont_heavy leading-snug text-center">
-				Own your sounds <br>
+			<h2 class="text-5xl leading-snug text-center text-shadow">
+				Own your sounds<br>
 				Collect your passions
 			</h2>
-			<p class="mt-3 max-w-xs text-center">
+			<!-- <p class="mt-3 max-w-xs text-center">
 				Hac ita persuasione reducti intra moenia bellatores obseratis undique portarum.
-			</p>
+			</p> -->
 		</main>
 	
 		<footer class="mb-9">
-			<a href="#" class="py-3 px-7 inline-flex items-center border-2 border-white rounded-full">
-				<svg xmlns="http://www.w3.org/2000/svg" class="mr-3 inline-block fill-current w-6 h-6"><path fill="none" d="M0 0h24v24H0z"/><path d="M21 5c-1.11-.35-2.33-.5-3.5-.5-1.95 0-4.05.4-5.5 1.5-1.45-1.1-3.55-1.5-5.5-1.5S2.45 4.9 1 6v14.65c0 .25.25.5.5.5.1 0 .15-.05.25-.05C3.1 20.45 5.05 20 6.5 20c1.95 0 4.05.4 5.5 1.5 1.35-.85 3.8-1.5 5.5-1.5 1.65 0 3.35.3 4.75 1.05.1.05.15.05.25.05.25 0 .5-.25.5-.5V6c-.6-.45-1.25-.75-2-1zm0 13.5c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5V8c1.35-.85 3.8-1.5 5.5-1.5 1.2 0 2.4.15 3.5.5v11.5z"/><path d="M17.5 10.5c.88 0 1.73.09 2.5.26V9.24c-.79-.15-1.64-.24-2.5-.24-1.7 0-3.24.29-4.5.83v1.66c1.13-.64 2.7-.99 4.5-.99zM13 12.49v1.66c1.13-.64 2.7-.99 4.5-.99.88 0 1.73.09 2.5.26V11.9c-.79-.15-1.64-.24-2.5-.24-1.7 0-3.24.3-4.5.83zM17.5 14.33c-1.7 0-3.24.29-4.5.83v1.66c1.13-.64 2.7-.99 4.5-.99.88 0 1.73.09 2.5.26v-1.52c-.79-.16-1.64-.24-2.5-.24z"/></svg>
-				<span>White Paper</span>
+			<a href="#" class="py-3 px-7 inline-flex items-center border-2 border-white rounded-full bg-black text-white">
+				<img src="img/whitePaper.svg" alt="" class="mr-3 w-6 h-6">
+				<span>White paper</span>
 			</a>
-			<a href="#" class="m-9 py-3 px-7 inline-flex items-center border-2 border-white rounded-full">
-				<svg xmlns="http://www.w3.org/2000/svg" class="mr-3 inline-block fill-current w-6 h-6"><path fill="none" d="M0 0h24v24H0z"/><path d="M21 5c-1.11-.35-2.33-.5-3.5-.5-1.95 0-4.05.4-5.5 1.5-1.45-1.1-3.55-1.5-5.5-1.5S2.45 4.9 1 6v14.65c0 .25.25.5.5.5.1 0 .15-.05.25-.05C3.1 20.45 5.05 20 6.5 20c1.95 0 4.05.4 5.5 1.5 1.35-.85 3.8-1.5 5.5-1.5 1.65 0 3.35.3 4.75 1.05.1.05.15.05.25.05.25 0 .5-.25.5-.5V6c-.6-.45-1.25-.75-2-1zm0 13.5c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5V8c1.35-.85 3.8-1.5 5.5-1.5 1.2 0 2.4.15 3.5.5v11.5z"/><path d="M17.5 10.5c.88 0 1.73.09 2.5.26V9.24c-.79-.15-1.64-.24-2.5-.24-1.7 0-3.24.29-4.5.83v1.66c1.13-.64 2.7-.99 4.5-.99zM13 12.49v1.66c1.13-.64 2.7-.99 4.5-.99.88 0 1.73.09 2.5.26V11.9c-.79-.15-1.64-.24-2.5-.24-1.7 0-3.24.3-4.5.83zM17.5 14.33c-1.7 0-3.24.29-4.5.83v1.66c1.13-.64 2.7-.99 4.5-.99.88 0 1.73.09 2.5.26v-1.52c-.79-.16-1.64-.24-2.5-.24z"/></svg>
+			<a href="#" class="m-9 py-3 px-7 inline-flex items-center border-2 border-white rounded-full bg-black">
+				<img src="img/discord.svg" alt="" class="mr-3 w-6 h-6">
 				<span>Discord</span>
 			</a>
-			<a href="#" class="py-3 px-7 inline-flex items-center border-2 border-white rounded-full">
-				<svg xmlns="http://www.w3.org/2000/svg" class="mr-3 inline-block fill-current w-6 h-6"><path fill="none" d="M0 0h24v24H0z"/><path d="M21 5c-1.11-.35-2.33-.5-3.5-.5-1.95 0-4.05.4-5.5 1.5-1.45-1.1-3.55-1.5-5.5-1.5S2.45 4.9 1 6v14.65c0 .25.25.5.5.5.1 0 .15-.05.25-.05C3.1 20.45 5.05 20 6.5 20c1.95 0 4.05.4 5.5 1.5 1.35-.85 3.8-1.5 5.5-1.5 1.65 0 3.35.3 4.75 1.05.1.05.15.05.25.05.25 0 .5-.25.5-.5V6c-.6-.45-1.25-.75-2-1zm0 13.5c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5V8c1.35-.85 3.8-1.5 5.5-1.5 1.2 0 2.4.15 3.5.5v11.5z"/><path d="M17.5 10.5c.88 0 1.73.09 2.5.26V9.24c-.79-.15-1.64-.24-2.5-.24-1.7 0-3.24.29-4.5.83v1.66c1.13-.64 2.7-.99 4.5-.99zM13 12.49v1.66c1.13-.64 2.7-.99 4.5-.99.88 0 1.73.09 2.5.26V11.9c-.79-.15-1.64-.24-2.5-.24-1.7 0-3.24.3-4.5.83zM17.5 14.33c-1.7 0-3.24.29-4.5.83v1.66c1.13-.64 2.7-.99 4.5-.99.88 0 1.73.09 2.5.26v-1.52c-.79-.16-1.64-.24-2.5-.24z"/></svg>
+			<a href="#" class="py-3 px-7 inline-flex items-center border-2 border-white rounded-full bg-black">
+				<img src="img/telegram.svg" alt="" class="mr-3 w-6 h-6">
 				<span>Telegram</span>
 			</a>
-		</footer>		  
+		</footer>
 
-	<script>
-
-	</script>
+		<div class="hidden lg:block -z-1 absolute inset-y-0 inset-x-0">
+			<div id="circle-small"></div>
+			<div id="circle-medium"></div>
+			<div id="circle-large"></div>
+			<div id="circle-xlarge"></div>
+			<div id="circle-xxlarge"></div>
+		</div>
 
 </body>
 
