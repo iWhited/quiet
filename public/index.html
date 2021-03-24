@@ -12,7 +12,7 @@
 
 <body class="py-6 px-6 h-screen relative flex flex-col justify-between items-center text-white bg-black font-mont_heavy md:px-12">
 		<header class="text-lg  text-center">
-			<a href="https://quiet.mx">Quiet</a>
+			<a href="https://quiet.mx" class="p-2 rounded-full focus:outline-none focus:ring-1 focus:ring-gray-100	">Quiet</a>
 		</header>
 
 		<main class="flex flex-col items-center">
@@ -23,17 +23,17 @@
 
 			<div>
 				<form class="mt-8 flex" name="newsletter" method="POST" data-netlify="true">
-					<input type="email" name="email" class="pl-4 pt-3 flex-1 block w-full  font-poppins_bold text-black placeholder-gray-300 rounded-none rounded-l-lg border  border-white focus:border-black focus:ring-black md:w-80" placeholder="Enter your email">
+					<input type="email" name="email" class="pl-4 py-4 flex-1 block w-full  font-poppins_bold text-black placeholder-gray-300 rounded-none rounded-l-lg border  border-white focus:border-black focus:ring-black md:w-80" placeholder="Enter your email">
 					<button type="submit" class="inline-flex items-center px-4 rounded-r-lg border border-l-black border-white bg-white text-black hover:bg-black hover:text-white hover:border-white focus:bg-black focus:text-white focus:border-white focus:outline-none md:px-9 border-left-color-subscribe">
 						Subscribe
 					</button>
 				</form>
 				<div class="flex justify-center items-center">
-					<a href="https://twitter.com/quiet_bsc?s=20" target="_blank" title="Twitter" class="mx-2 text-gray-500 hover:text-white">
+					<a href="https://twitter.com/quiet_bsc?s=20" target="_blank" title="Twitter" class="mx-2 text-gray-500 hover:text-white focus:text-white focus:outline-none">
 						<!-- twitter -->
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-6 h-6 fill-current"><path d="M512 97.248c-19.04 8.352-39.328 13.888-60.48 16.576 21.76-12.992 38.368-33.408 46.176-58.016-20.288 12.096-42.688 20.64-66.56 25.408C411.872 60.704 384.416 48 354.464 48c-58.112 0-104.896 47.168-104.896 104.992 0 8.32.704 16.32 2.432 23.936-87.264-4.256-164.48-46.08-216.352-109.792-9.056 15.712-14.368 33.696-14.368 53.056 0 36.352 18.72 68.576 46.624 87.232-16.864-.32-33.408-5.216-47.424-12.928v1.152c0 51.008 36.384 93.376 84.096 103.136-8.544 2.336-17.856 3.456-27.52 3.456-6.72 0-13.504-.384-19.872-1.792 13.6 41.568 52.192 72.128 98.08 73.12-35.712 27.936-81.056 44.768-130.144 44.768-8.608 0-16.864-.384-25.12-1.44C46.496 446.88 101.6 464 161.024 464c193.152 0 298.752-160 298.752-298.688 0-4.64-.16-9.12-.384-13.568 20.832-14.784 38.336-33.248 52.608-54.496z"/></svg>
 					</a>
-					<a href="https://discord.gg/qNVEZeUQr6" target="_blank" title="Discord" class="mx-2 text-gray-500 hover:text-white">
+					<a href="https://discord.gg/qNVEZeUQr6" target="_blank" title="Discord" class="mx-2 text-gray-500 hover:text-white focus:text-white focus:outline-none">
 						<!-- discord  -->
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" class="w-6 h-6 fill-current">
 							<g id="Discord" transform="translate(-23 -20)">
@@ -42,13 +42,13 @@
 							</g>
 						</svg>
 					</a>
-					<a href="https://t.me/joinchat/g_kBdu_O_vFiMzZk" target="_blank" title="Telegram" class="mx-2 text-gray-500 hover:text-white">
+					<a href="https://t.me/joinchat/g_kBdu_O_vFiMzZk" target="_blank" title="Telegram" class="mx-2 text-gray-500 hover:text-white focus:text-white focus:outline-none">
 						<!-- telegram -->
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" class="w-6 h-6 fill-current">
 							<path id="telegram" d="M100,8A100,100,0,1,0,200,108,99.983,99.983,0,0,0,100,8Zm49.113,68.508L132.7,153.847c-1.21,5.484-4.476,6.815-9.032,4.234l-25-18.427L86.613,151.266c-1.331,1.331-2.46,2.46-5.04,2.46l1.774-25.444,46.331-41.855c2.016-1.774-.444-2.782-3.1-1.008L69.315,121.468l-24.677-7.7c-5.363-1.694-5.484-5.363,1.129-7.944l96.411-37.177C146.653,67.032,150.564,69.734,149.113,76.508Z" transform="translate(0 -8)"/>
 						</svg>
 					</a>
-					<a href="#" title="Medium" class="mx-2 text-gray-500 hover:text-white">
+					<a href="#" title="Medium" class="mx-2 text-gray-500 hover:text-white focus:text-white focus:outline-none">
 						<!-- medium -->
 						<svg height="512" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 fill-current"><path d="M22.085 4.733L24 2.901V2.5h-6.634l-4.728 11.768L7.259 2.5H.303v.401L2.54 5.594c.218.199.332.49.303.783V16.96c.069.381-.055.773-.323 1.05L0 21.064v.396h7.145v-.401l-2.52-3.049a1.244 1.244 0 01-.347-1.05V7.806l6.272 13.659h.729l5.393-13.659v10.881c0 .287 0 .346-.188.534l-1.94 1.877v.402h9.412v-.401l-1.87-1.831a.556.556 0 01-.214-.534V5.267a.554.554 0 01.213-.534z"/></svg>
 					</a>					
