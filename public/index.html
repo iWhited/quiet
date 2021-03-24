@@ -11,8 +11,14 @@
 </head>
 
 <body class="py-6 px-6 h-screen relative flex flex-col justify-between items-center text-white bg-black font-mont_heavy md:px-12">
-		<header class="text-lg  text-center">
-			<a href="https://quiet.mx" class="px-4 py-3 rounded-full focus:outline-none focus:ring-1 focus:ring-gray-100">Quiet</a>
+		<header class="text-lg flex items-center w-full">
+			<div class="flex-1"></div>
+			<a href="https://quiet.mx" class="px-4 py-3 flex-1 justify-self-center rounded-full text-center">Quiet</a>
+			<div class="flex-1 text-right">
+				<button class="py-1.5 px-6 flex justify-center items-center text-xs border border-white rounded-full bg-black text-white hover:bg-white hover:text-black focus:bg-white focus:text-black focus:outline-none md:inline-flex">
+					Connect
+				</button>
+			</div>
 		</header>
 
 		<main class="flex flex-col items-center">
@@ -23,7 +29,7 @@
 
 			<div>
 				<form class="mt-8 flex" name="newsletter" method="POST" data-netlify="true">
-					<input type="email" name="email" class="pl-4 py-4 flex-1 block w-full  font-poppins_bold text-black placeholder-gray-300 rounded-none rounded-l-lg border  border-white focus:border-black focus:ring-black md:w-80" placeholder="Enter your email">
+					<input type="email" name="email" class="pl-4 py-4 flex-1 block w-full  font-poppins_bold text-black placeholder-gray-300 rounded-none rounded-l-lg border  border-white focus:outline-none focus:border-transparent focus:ring-black focus:border-none md:w-80" placeholder="Enter your email">
 					<button type="submit" class="inline-flex items-center px-4 rounded-r-lg border border-l-black border-white bg-white text-black hover:bg-black hover:text-white hover:border-white focus:bg-black focus:text-white focus:border-white focus:outline-none md:px-9 border-left-color-subscribe">
 						Subscribe
 					</button>

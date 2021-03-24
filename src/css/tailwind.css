@@ -115,10 +115,6 @@ input::selection {
     color: #000;
 }
 
-input:focus::-webkit-input-placeholder {
-    color: transparent;
-}
-
 .text-shadow {
 	text-shadow: 0 0 10px rgba(0,0,0,0.6), 0 0 10px rgba(0,0,0,0.6), 0 0 10px rgba(0,0,0,0.6);
 }
