@@ -911,8 +911,30 @@ select {
   color: #ffffff;
 }
 
+input::-moz-selection {
+  background: #D1D5DB;
+  color: #000;
+}
+
+input::selection {
+  background: #D1D5DB;
+  color: #000;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
 .text-shadow {
   text-shadow: 0 0 10px rgba(0,0,0,0.6), 0 0 10px rgba(0,0,0,0.6), 0 0 10px rgba(0,0,0,0.6);
+}
+
+.border-left-color-subscribe {
+  border-left-color: black !important;
+}
+
+.border-left-color-subscribe:hover {
+  border-left-color: white !important;
 }
 
 body {
