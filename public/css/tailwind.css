@@ -955,6 +955,7 @@ body {
   height: 300px;
   border-radius: 50%;
   opacity: 0.1;
+  transition: opacity .5s ease;
 }
 
 #circle-r-medium {
@@ -973,6 +974,7 @@ body {
   height: 600px;
   border-radius: 50%;
   opacity: 0.1;
+  transition: opacity .4s ease;
 }
 
 #circle-r-large {
@@ -991,6 +993,7 @@ body {
   height: 900px;
   border-radius: 50%;
   opacity: 0.1;
+  transition: opacity .3s ease;
 }
 
 #circle-l-large {
