@@ -94,22 +94,6 @@
 		<div id="circle-l-xxlarge" class="opacity-0 md:opacity-5"></div>
 	</div>
 
-	<script>
-		document.querySelector("form").addEventListener("submit", handleSubmit);
-
-		const handleSubmit = (e) => {
-		e.preventDefault()
-		let myForm = document.getElementById('pizzaOrder');
-		let formData = new FormData(myForm)
-		fetch('/', {
-			method: 'POST',
-			headers: { "Content-Type": "application/x-www-form-urlencoded" },
-			body: new URLSearchParams(formData).toString()
-		}).then(() => console.log('Form successfully submitted')).catch((error) =>
-			alert(error))
-		}
-	</script>
-
 	<script src="contract.js" defer></script>
 
 </body>
